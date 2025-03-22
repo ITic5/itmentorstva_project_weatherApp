@@ -2,9 +2,9 @@ import { checkStoredCity } from "./components/locations.js";
 import {getForecast, getWeather} from "./components/weatherApp.js"
 import {getCityForCoord} from "./components/getCityForCoords.js";
 
-let cityName = document.getElementById("city-name");
-let changeLocation = document.getElementById("change-location");
-let getForecastButton = document.getElementById("forecast-button");
+export let cityName = document.getElementById("city-name");
+export let changeLocation = document.getElementById("change-location");
+export let getForecastButton = document.getElementById("forecast-button");
 let locationWeatherBtn = document.getElementById("location-weather");
 
 
